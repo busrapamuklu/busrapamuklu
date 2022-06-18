@@ -1,0 +1,17 @@
+--  Ödev 1
+
+--Sorgu 1
+SELECT title, description FROM film;
+
+--Sorgu 2
+SELECT * FROM film where length>60 AND length< 75;
+
+--Sorgu 3
+SELECT * FROM film where rental_rate= 0.99 AND replacement_cost 12.99 OR replacement_cost= 28.99;
+
+--Sorgu 4
+SELECT first_name, lastname FROM customer where firstname= 'Marry'; 
+
+--Sorgu 5
+SELECT* FROM film WHERE NOT length>50 AND NOT(rental_rate= 2.99 OR rental_rate= 4.99);
+
